@@ -1,19 +1,21 @@
-import Navbar from "./components/navbar"
+
 import Headsection from "./components/headsection"
 import Services from "./components/services"
-import Emailform from "./components/emailform"
+import Contactform from "./components/contact"
+import Who_are_we from "./components/Who_are_we"
+
+
 const home = () => {
   return (
     <>
-    {/* <Navbar/>
+ 
     <br />
     <br />
     <Headsection/>
-    <Services/> */}
-
-    <Emailform/>
-
-
+    <Services/>
+    <Who_are_we/>
+  
+<Contactform/>
 
     </>
     

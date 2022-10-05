@@ -16,7 +16,7 @@ const headsection = () => {
 
     </div>
     
-    <div className="hright">
+    <div className="hright_headsection">
       
     <div className="hservices1">
         <p> <Link href="/">Company Registration</Link></p>

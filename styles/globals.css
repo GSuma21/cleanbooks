@@ -50,7 +50,7 @@ nav {
 }
 .menu-bar li {
   list-style: none;
-  color: rgb(0, 0, 0);
+  color: #808080(0, 0, 0);
   font-weight: normal;
   padding: 12px 16px;
   /* margin: 0 8px; */
@@ -70,16 +70,16 @@ nav {
   /* border-radius: 25px; */
 }
 .menu-bar li:hover {
-  color: black;
+  color: #808080;
 }
 .menu-bar li:hover::before {
   background-color: #89cf6d;
-  color: #777;
+  color: #808080;
   box-shadow: 0px 3px 20px 0px rgb(47, 47, 47);
   /* transform: scale(1.2); */
 }
 
-
+.btn_container
 
 /* .................................................. */ */
 
@@ -116,10 +116,12 @@ nav {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #89cf6d;}
+.dropdown-content a:hover {background-color: #89cf6d;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: flex;
+flex-direction: row;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
@@ -130,37 +132,57 @@ nav {
 
 
 .hmain {
-  display:flex;
-  flex-direction: row;
+  display: flex;
+  flex-flow: row-wrap;
+  column-gap: 10px; 
   background-color: #89cf6d;
-  gap: 50px;
   align-items: center;
 
-  
   
 }
 .hleft{
-  flex: 1;
+  display: block;
+  width: 50%;
+  padding-left: 10%;
   align-items: center;
-  margin-top: 20px;
-  margin-left: 150px;
+
 }
 .hright{
-  display:flex;
-  flex-direction: row;
-  background-color: #89cf6d;
-  gap: 50px;
-  margin-top: 20px;
+  display: block;
+  width: 50%;
   align-items: center;
-  margin-right: 200px;
+  padding-right: 10%;
+}
 
+.hright_headsection{
+  display: flex;
+  flex-flow: row-wrap;
+  
+  column-gap: 40px; 
+}
+.hservices1, .hservices2{
+  display: block;
+  width: 100%;
+  font-size: large;
 }
 
 #headh1{ 
- 
   text-align: center;
  
 }
+
+.whoarewe_paragraph{
+  background-color: #89cf6d;
+  padding: 30px;
+
+}
+.whoarewe_paragraph_p{
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: large;
+}
+
 
 
 @media  screen and (max-width: 400px)
@@ -192,8 +214,43 @@ nav {
           }
         }
         
+/* ------------------------------------------------------------------------------ */
+
+/* contact */
+
+.contact_container{
+  display: flex;
+  flex-flow: row-wrap;
+  background-color: #89cf6d; 
+  justify-content: center;
+  column-gap: 30px;
+ 
+}
+.container{
+ display: flex;
+ flex-direction: column;
+ gap:20px;
+ padding: 10px;
+}
+.container_contact_us{
+  justify-content: center;
+  text-align: center;
+}
+.input_container{
+  justify-content: center;
+ text-align: center;
+}
 
 
+.btn_container{
+  justify-content: center;
+ text-align: center;
+}
+.btnsend{
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+}
 /* ------------------------------------------------------------------- */
 
 /* Services */
@@ -453,7 +510,7 @@ nav {
         #free-container-box-header
         {
            background-color: #fff;
-           color: #000000;
+           color: #808080;
         }
         
         
@@ -936,7 +993,7 @@ nav {
          scroll-snap-align: center;
          border-radius: 5px;
          border: 1px solid #e5e5e5;
-         background-color: #fff;
+         background-color: #89cf6d;
          width: 372px;
          display: flex;
          flex-direction: column;
