@@ -2,8 +2,7 @@
 import Headsection from "./components/headsection"
 import Services from "./components/services"
 import Contactform from "./components/contact"
-import Who_are_we from "./components/Who_are_we"
-
+import About_us from "./components/about_us"
 
 const home = () => {
   return (
@@ -12,11 +11,12 @@ const home = () => {
     <br />
     <br />
     <Headsection/>
+    <About_us/>
     <Services/>
-    <Who_are_we/>
-  
-<Contactform/>
-
+    
+   <Contactform/>
+<br></br>
+<br></br>
     </>
     
   )

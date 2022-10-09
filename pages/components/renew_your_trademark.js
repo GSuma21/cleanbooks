@@ -1,12 +1,12 @@
 import Emailform from "./emailform"
 
-const OnePersonCompany = () => {
+const renew_your_trademark = () => {
   return (
     <>
     <h1 id="headh1">CleanBooks Advisors </h1>
     <div className="hmain">
       <div className="hleft">
-        <h1> One Person Comapnay Registration</h1>
+        <h1> Renew your Trademark</h1>
         <p id="header-info">
           We handle your legalities and documentation, <br />
           so that you worry less and focus more on your dream business.
@@ -20,7 +20,9 @@ const OnePersonCompany = () => {
       </div>
     </div>
   </>
+   
+    
   )
 }
 
-export default OnePersonCompany
+export default renew_your_trademark

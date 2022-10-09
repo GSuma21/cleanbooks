@@ -1,12 +1,13 @@
 import Emailform from "./emailform"
 
-const OnePersonCompany = () => {
+const ngo_section_8_company = () => {
   return (
     <>
-    <h1 id="headh1">CleanBooks Advisors </h1>
+
+<h1 id="headh1">CleanBooks Advisors </h1>
     <div className="hmain">
       <div className="hleft">
-        <h1> One Person Comapnay Registration</h1>
+        <h1> NGO/ Section 8 Comapnay</h1>
         <p id="header-info">
           We handle your legalities and documentation, <br />
           so that you worry less and focus more on your dream business.
@@ -19,8 +20,8 @@ const OnePersonCompany = () => {
         <Emailform />
       </div>
     </div>
-  </>
+    </>
   )
 }
 
-export default OnePersonCompany
+export default ngo_section_8_company

@@ -19,16 +19,24 @@ const headsection = () => {
     <div className="hright_headsection">
       
     <div className="hservices1">
-        <p> <Link href="/">Company Registration</Link></p>
-        <p> <Link href="/"><a>ROC Filing </a></Link></p>
-        <p> <Link href="/"><a>GST Registration </a></Link></p>
-        <p> <Link href="/"><a>MSME Registration </a></Link></p>
+      <div className="servicess"><p> <Link href="/components/PrivateLimitedCompany">Company Registration</Link></p></div>
+      <div className="servicess"><p> <Link href="/components/roc_return_filing_for_pvt_ltd"><a>ROC Filing </a></Link></p></div>
+      <div className="servicess"><p> <Link href="/components/startup_registration"><a>GST Registration </a></Link></p></div>
+      <div className="servicess"><p> <Link href="/components/msme_ssi_registration"><a>MSME Registration </a></Link></p></div>
+        
+        
+        
+        
         </div>
        <div className="hservices2" >
-        <p> <Link href="/">Trademark Registration </Link></p>
-        <p> <Link href="/"><a>Startup India Registration </a></Link></p>
-        <p> <Link href="/"><a>ISO Certification </a></Link></p>
-        <p> <Link href="/"><a>Startup Registration </a></Link></p> 
+       <div className="servicess"><p> <Link href="/components/trademark_registration">Trademark Registration </Link></p></div>
+       <div className="servicess"><p> <Link href="/components/startup_registration"><a>Startup India Registration </a></Link></p></div>
+       <div className="servicess"><p> <Link href="/components/iso_certification"><a>ISO Certification </a></Link></p></div>
+       <div className="servicess"> <p> <Link href="/components/startup_registration"><a>Startup Registration </a></Link></p> </div>
+        
+        
+        
+       
            
         </div>
     </div>

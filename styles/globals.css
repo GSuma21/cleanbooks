@@ -132,6 +132,10 @@ nav {
 
 /* headsection */
 
+.image_backgroudimage1{
+  align-items: center;
+  justify-content: center;
+}
 .hmain {
   display: flex;
   flex-flow: row-wrap;
@@ -155,14 +159,18 @@ nav {
 .hright_headsection {
   display: flex;
   flex-flow: row-wrap;
-
   column-gap: 40px;
 }
 .hservices1,
 .hservices2 {
   display: block;
   width: 100%;
-  font-size: large;
+  font-size:large;
+}
+.servicess:hover{
+  display: block;
+  background-color: #89cf6d;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); 
 }
 
 #headh1 {
