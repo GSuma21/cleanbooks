@@ -5,7 +5,8 @@ const Emailform = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
 
-  const handleSubmit = async () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
     const headers = {
       "Content-Type": "application/json",
     };
