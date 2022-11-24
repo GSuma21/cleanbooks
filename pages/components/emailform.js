@@ -24,7 +24,7 @@ const Emailform = () => {
 
   return (
     <div>
-      <form>
+      <form method="post">
         <div className="container">
           <h3 className="container_contact_us">Contact Us</h3>
           <div className="input_container">
@@ -58,11 +58,12 @@ const Emailform = () => {
             />
           </div>
           <div className="btn_container">
-            <button className="btnsend" onClick={handleSubmit}>Contact</button>
+            <button className="btnsend" onClick={handleSubmit}>
+              Contact
+            </button>
           </div>
         </div>
       </form>
-
     </div>
   );
 };
