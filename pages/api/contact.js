@@ -19,13 +19,13 @@ export default async function handler(req, res) {
     let keys = Object.keys(data);
 
     keys.forEach((element) => {
-      content += `${element}: ${data[element]} \n`;
+      content += `${element}: ${data[element]} <br/>`;
     });
     await transporter.sendMail({
       from: process.env.FROM_EMAIL_ADDRESS,
       to: process.env.TO_EMAIL_ADDRESS,
       subject: `Contact us notification`,
-      html: `Details of contact info:\n
+      html: `Details of contact info:<br/>
       ${content}
           `,
     });
