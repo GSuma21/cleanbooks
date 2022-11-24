@@ -31,6 +31,7 @@ export default async function handler(req, res) {
     });
   } catch (error) {
     console.log(error);
+    console.log(process.env.SMTP_HOST, process.env.FROM_EMAIL_ADDRESS);
     return res.status(500).json({ message: error.response });
   }
   return res.status(200).json({ message: "successfull" });
