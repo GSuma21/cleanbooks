@@ -24,7 +24,7 @@ const Emailform = () => {
 
   return (
     <div>
-      <form method="post">
+      <form>
         <div className="container">
           <h3 className="container_contact_us">Contact Us</h3>
           <div className="input_container">
