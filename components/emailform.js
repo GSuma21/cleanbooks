@@ -5,7 +5,8 @@ const Emailform = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
 
-  const handleSubmit = async () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
     const headers = {
       "Content-Type": "application/json",
     };
@@ -58,11 +59,12 @@ const Emailform = () => {
             />
           </div>
           <div className="btn_container">
-            <button className="btnsend" onClick={handleSubmit}>Contact</button>
+            <button className="btnsend" onClick={handleSubmit}>
+              Contact
+            </button>
           </div>
         </div>
       </form>
-
     </div>
   );
 };
