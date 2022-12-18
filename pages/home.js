@@ -1,8 +1,8 @@
 
-import Headsection from "../components/headsection"
-import Services from "../components/services"
-import Contactform from "../components/contact"
-import About_us from "../components/about_us"
+import Headsection from "./components/headsection"
+import Services from "./components/services"
+import Contactform from "./components/contact"
+import About_us from "./components/about_us"
 
 const home = () => {
   return (
