@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
     "@sendgrid/mail": "^7.7.0",
     "dotenv": "^16.0.2",
     "next": "12.2.5",
