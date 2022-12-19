@@ -237,15 +237,6 @@ a {
   text-align: center;
 }
 
-::ng-deep .MuiInput-underline:before {
-  border-bottom: 10px solid rgba(0, 0, 0, 0.42);
-}
-::ng-deep .MuiInput-underline:hover(.Mui-disabled):before {
-  border-bottom: 10px solid rgba(139, 39, 39, 0.42);
-}
-::ng-deep .MuiInput-underline:after{
-  border-bottom: 10px solid rgba(0, 0, 0, 0.42);
-}
 .btn_container {
   justify-content: center;
   text-align: center;
